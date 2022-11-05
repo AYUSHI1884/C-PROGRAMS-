@@ -1,0 +1,13 @@
+include<stdio.h>
+#include<conio.h>
+void main()
+{
+int b,c,d;
+printf("enter the value of d and c");
+scanf("%i%i%",&d&c);
+b=c;
+c=d;
+d=b;
+printf("value after swapping is d=%d,c=%d");
+getch();
+}
