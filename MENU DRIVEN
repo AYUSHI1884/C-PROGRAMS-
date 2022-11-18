@@ -1,0 +1,63 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+int choice,c,no,i,a,num,temp;
+while(1)
+{
+printf("\n factorial of a number");
+printf("\n prime or not");
+printf("\n odd and even");
+printf("\n exit");
+printf("\n enter any number");
+scanf("%d",&choice);
+switch (choice)
+{
+case 1:
+printf("enter any no ");
+scanf("%d",&no);
+temp=no;
+for(i=1;i<temp;i++)
+{
+no=no*i;
+}
+printf("factorial is%d",no);
+break;
+case 3 :
+printf("enter the number");
+scanf("%d",&a);
+if(a%2==0)
+{
+printf("the number is even");
+}
+else
+{
+printf("the number is odd");
+}
+break;
+case 2 :
+printf("enter a no");
+scanf("%d",&num);
+i=2;
+while(i<=num-1)
+{
+if(num%i==0)
+{
+printf("not a prime no");
+break;
+}
+i++;
+}
+if(i==num);
+{
+printf("prime number");
+}
+break;
+case 4:
+exit(0);
+}
+
+getch();
+}
+}
