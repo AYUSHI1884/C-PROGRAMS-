@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char ch[6];
+char ch1[6];
+gets(ch);
+strcpy(ch1,ch);
+strrev(ch);
+  if (strcmp(ch,ch1)==0)
+  {
+  printf("it is pallindraome");
+  }
+  else
+  {
+  printf("not a pallindraome");
+   }
+ getch();
+ }
+
+
+
