@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<alloc.h>
+void main()
+{
+inti,*ptr;
+printf("enter the range of an array");
+scanf("%d",&n);
+ptr=(int*)malloc(n*size of(int));
+for(i=0;i<n;i++)
+{
+printf("enter the elements");
+scanf("%d",ptr+i);
+}
+for(i=0;i<n;i++)
+{
+printf("%d",*ptr+i);
+}
+free(ptr)
+}
